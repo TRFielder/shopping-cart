@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import "./styles/globalstyle.css"
 
 
 ReactDOM.render(
