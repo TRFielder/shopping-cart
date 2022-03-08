@@ -6,7 +6,7 @@
 }
 
 .innerHeader {
-    width: 75%;
+    width: 70%;
     height: 100%;
     display: block;
     margin: 0 auto;
@@ -25,4 +25,29 @@
     vertical-align: middle;
     font-size: 32px;
     font-weight: 200;
+}
+
+.header-links {
+    height: 100%;
+    float: right;
+}
+
+.header-links ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header-links li {
+    font-size: 24px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.active {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
 }
