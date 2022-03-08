@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
+/*
+--rich-black-fogra-39: #02010aff;
+--gainsboro: #ccdbdcff;
+--maximum-purple: #712f79ff;
+--powder-blue: #9ad1d4ff;
+--middle-blue: #80ced7ff
+*/
+
 * {
     font-family: 'PT Sans', sans-serif; 
     margin: 0;
@@ -13,13 +21,18 @@
     text-align: center;
   }
   
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.content {
+  background-color: #ccdbdcff;
+  height: 75vh;
+}

@@ -2,9 +2,9 @@
     width: 100vw;
     display: block;
     overflow: hidden;
-    padding: 70px 0;
+    padding: 50px 0;
     box-sizing: border-box;
-    background: #18181a;
+    background: #02010A;
     position: absolute;
     bottom: 0;
 }

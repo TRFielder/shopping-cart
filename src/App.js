@@ -9,10 +9,12 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
         <Header name="Shopping cart"/>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="shop" element={<Shop />} />
-          </Routes>
+          <div className="content">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="shop" element={<Shop />} />
+            </Routes>
+          </div>
         </BrowserRouter>
       <Footer />
     </div>
