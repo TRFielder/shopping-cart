@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header name="Shopping cart"/>
+        <Header name="Ramen Rider"/>
           <div className="content">
             <Routes>
               <Route path="/" element={<Home />} />
