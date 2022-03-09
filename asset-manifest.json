@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.5af69741.css",
+    "main.js": "/shopping-cart/static/js/main.f71a8516.js",
+    "static/media/8-low-ural2.jpg": "/shopping-cart/static/media/8-low-ural2.177ec6a877a74c819f04.jpg",
+    "static/media/anton-nazaretian2.jpg": "/shopping-cart/static/media/anton-nazaretian2.ca87d106589d3dd2eea0.jpg",
+    "static/media/david-hunter2.jpg": "/shopping-cart/static/media/david-hunter2.0e7573326a62328c731b.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.5af69741.css.map": "/shopping-cart/static/css/main.5af69741.css.map",
+    "main.f71a8516.js.map": "/shopping-cart/static/js/main.f71a8516.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5af69741.css",
+    "static/js/main.f71a8516.js"
+  ]
+}
