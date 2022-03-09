@@ -8,15 +8,16 @@ const App = () => {
   return (
     <div className="App">
       <HashRouter>
-        <Header name="Ramen Rider"/>
+        <Header name="In The Noods"/>
           <div className="content">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="shop" element={<Shop />} />
             </Routes>
           </div>
-        </HashRouter>
-      <Footer />
+          <div>
+          </div>
+      </HashRouter>
     </div>
   );
 }

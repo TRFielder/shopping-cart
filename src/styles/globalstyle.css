@@ -17,13 +17,16 @@
     z-index: 1;
 }
 
+body {
+  background-color: #ccdbdcff;
+}
+
 .App {
     text-align: center;
   }
   
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,6 +36,7 @@
 }
 
 .content {
-  background-color: #ccdbdcff;
-  height: 75vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }

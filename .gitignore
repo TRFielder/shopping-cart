@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#Removed files
+./styles/carousel.css
+./components/carousel.js

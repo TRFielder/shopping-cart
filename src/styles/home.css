@@ -1,0 +1,10 @@
+.home {
+    margin: 2% auto;
+    height: 75%;
+}
+
+.home > img {
+    border-radius: 10px;
+    width: 75%;
+    object-fit: contain;
+}

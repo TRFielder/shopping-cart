@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import ProductCard from "../components/productCard";
+import "../styles/shop.css"
 
 const Shop = () => {
     
@@ -12,11 +13,16 @@ const Shop = () => {
     }, [])
 
   return (
-    <div>
-        <h1>Shop</h1> 
+    <div className="productMenu">
         {products.map(product => {
+            console.log(product.image)
             return(
-                <ProductCard key={product.id} name={product.name}/>
+                <ProductCard key={product.id}
+                name={product.name}
+                description={product.description}
+                price={`£${product.price}`}
+                image={product.image}
+                />
             )
         })}
     </div>

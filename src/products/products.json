@@ -6,7 +6,8 @@
             "description": "Pork broth base, thin cut fresh noodles topped with chashu pork belly, bamboo shoots, spring onions, burnt garlic oil and seasoned egg",
             "vegetarian": false,
             "price": 12,
-            "category": "ramen"
+            "category": "ramen",
+            "image": "../images/menu/tonkotsu.jpg"
         },
         {
             "id": "2",
@@ -14,15 +15,17 @@
             "description": "Chicken broth and soy sauce base, classic fresh noodles topped with chashu pork belly, bamboo shoots, spring onions and seasoned egg.",
             "vegetarian": false,
             "price": 10,
-            "category": "ramen"
+            "category": "ramen",
+            "image": "../images/menu/shoyu.jpg"
         },
         {
             "id": "3",
-            "name": "Chilli Tiger Prawn",
+            "name": "Chilli Prawn",
             "description": "Chicken broth and sea salt base. Classic fresh noodles topped with chilli tiger prawns, wakame, bamboo shoots, lemon wedge, spring onions and seasoned egg",
             "vegetarian": false,
             "price": 13,
-            "category": "ramen"
+            "category": "ramen",
+            "image": "../images/menu/prawn.png"
         },
         {
             "id": "4",
@@ -30,7 +33,8 @@
             "description": "Konbu and shiitake broth, miso base. Classic fresh noodles topped with shiitake, enoki & shimeji mushrooms, bok choy, mange tout and bamboo shoots",
             "vegetarian": true,
             "price": 9,
-            "category": "ramen"
+            "category": "ramen",
+            "image": "../images/menu/mushroom.jpg"
         },
         {
             "id": "5",
@@ -38,7 +42,8 @@
             "description": "Konbu and shiitake broth, spicy sesame base. Classic fresh noodles topped with plant based soya mince, bok choy, kikurage and pickled radish.",
             "vegetarian": true,
             "price": 9,
-            "category": "ramen"
+            "category": "ramen",
+            "image": "../images/menu/tantanman.jpg"
         }
     ]
 }
