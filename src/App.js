@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header"
 import Footer from "./components/footer";
 import Shop from "./pages/shop";
@@ -7,7 +7,7 @@ import Home from "./pages/home";
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Header name="Ramen Rider"/>
           <div className="content">
             <Routes>
@@ -15,7 +15,7 @@ const App = () => {
               <Route path="shop" element={<Shop />} />
             </Routes>
           </div>
-        </BrowserRouter>
+        </HashRouter>
       <Footer />
     </div>
   );
