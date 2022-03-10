@@ -1,5 +1,7 @@
 import "../styles/productCard.css"
 
+import * as images from "../imageIndex.js";
+
 const ProductCard = (props) => {
 
     return(
@@ -7,7 +9,7 @@ const ProductCard = (props) => {
             <h1>{props.name}</h1>
             <p>{props.description}</p>
             <p>{props.price}</p>
-            <img alt={props.name} src={require(""+ props.image)}></img>
+            <img alt={props.name} src={images[props.image]}></img>
         </div>
     )
 }

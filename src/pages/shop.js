@@ -15,7 +15,6 @@ const Shop = () => {
   return (
     <div className="productMenu">
         {products.map(product => {
-            console.log(product.image)
             return(
                 <ProductCard key={product.id}
                 name={product.name}

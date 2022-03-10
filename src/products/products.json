@@ -7,7 +7,7 @@
             "vegetarian": false,
             "price": 12,
             "category": "ramen",
-            "image": "../images/menu/tonkotsu.jpg"
+            "image": "tonkotsu"
         },
         {
             "id": "2",
@@ -16,7 +16,7 @@
             "vegetarian": false,
             "price": 10,
             "category": "ramen",
-            "image": "../images/menu/shoyu.jpg"
+            "image": "shoyu"
         },
         {
             "id": "3",
@@ -25,7 +25,7 @@
             "vegetarian": false,
             "price": 13,
             "category": "ramen",
-            "image": "../images/menu/prawn.png"
+            "image": "prawn"
         },
         {
             "id": "4",
@@ -34,7 +34,7 @@
             "vegetarian": true,
             "price": 9,
             "category": "ramen",
-            "image": "../images/menu/mushroom.jpg"
+            "image": "mushroom"
         },
         {
             "id": "5",
@@ -43,7 +43,7 @@
             "vegetarian": true,
             "price": 9,
             "category": "ramen",
-            "image": "../images/menu/tantanman.jpg"
+            "image": "tantanman"
         }
     ]
 }

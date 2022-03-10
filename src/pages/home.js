@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <div className="home">
             <img src={require("../images/anton-nazaretian2.jpg")} alt="Ramen chef in kitchen"></img>
+            
         </div>
     );
 }
