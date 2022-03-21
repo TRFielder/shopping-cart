@@ -1,11 +1,12 @@
 import "../styles/home.css";
+import Carousel from "../components/carousel";
+import { imageData } from '../components/imageData'
 
 const Home = () => {
   
     return (
         <div className="home">
-            <img src={require("../images/anton-nazaretian2.jpg")} alt="Ramen chef in kitchen"></img>
-            
+            <Carousel images={imageData}/>        
         </div>
     );
 }
