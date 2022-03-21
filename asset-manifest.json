@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.5af69741.css",
-    "main.js": "/shopping-cart/static/js/main.f71a8516.js",
+    "main.css": "/shopping-cart/static/css/main.d73eaa89.css",
+    "main.js": "/shopping-cart/static/js/main.a86664d6.js",
     "static/media/8-low-ural2.jpg": "/shopping-cart/static/media/8-low-ural2.177ec6a877a74c819f04.jpg",
     "static/media/anton-nazaretian2.jpg": "/shopping-cart/static/media/anton-nazaretian2.ca87d106589d3dd2eea0.jpg",
+    "static/media/tantanman.jpg": "/shopping-cart/static/media/tantanman.4a9810a9ec1d6d3f5ce6.jpg",
+    "static/media/prawn.png": "/shopping-cart/static/media/prawn.bbcb4ba1e951c3f7bd51.png",
     "static/media/david-hunter2.jpg": "/shopping-cart/static/media/david-hunter2.0e7573326a62328c731b.jpg",
+    "static/media/shoyu.jpg": "/shopping-cart/static/media/shoyu.8f262c5678cc920598b1.jpg",
+    "static/media/tonkotsu.jpg": "/shopping-cart/static/media/tonkotsu.228d5a652bebddd1f84d.jpg",
+    "static/media/mushroom.jpg": "/shopping-cart/static/media/mushroom.2a259629cc82a172bfa0.jpg",
     "index.html": "/shopping-cart/index.html",
-    "main.5af69741.css.map": "/shopping-cart/static/css/main.5af69741.css.map",
-    "main.f71a8516.js.map": "/shopping-cart/static/js/main.f71a8516.js.map"
+    "main.d73eaa89.css.map": "/shopping-cart/static/css/main.d73eaa89.css.map",
+    "main.a86664d6.js.map": "/shopping-cart/static/js/main.a86664d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.5af69741.css",
-    "static/js/main.f71a8516.js"
+    "static/css/main.d73eaa89.css",
+    "static/js/main.a86664d6.js"
   ]
 }
