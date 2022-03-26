@@ -11,10 +11,8 @@ const App = () => {
           <div className="content">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="shop" element={<Shop />} />
+              <Route path="shop" element={<Shop />} />            
             </Routes>
-          </div>
-          <div>
           </div>
       </HashRouter>
     </div>

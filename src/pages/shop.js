@@ -1,19 +1,21 @@
 import { useState, useEffect } from "react";
 import ProductCard from "../components/productCard";
+import Basket from "../components/basket";
 import "../styles/shop.css"
 
 const Shop = () => {
     
-    const [products, setProducts] = useState([])
+    const [products, setProducts] = useState([]);
 
     useEffect(() => {
         const productsFile = require("../products/products.json");
         const products = productsFile.products;
-        setProducts(products)
+        setProducts(products);
     }, [])
 
   return (
     <div className="productMenu">
+        <Basket />
         {products.map(product => {
             return(
                 <ProductCard key={product.id}
@@ -21,6 +23,7 @@ const Shop = () => {
                 description={product.description}
                 price={`£${product.price}`}
                 image={product.image}
+                vegetarian={product.vegetarian}
                 />
             )
         })}

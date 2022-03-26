@@ -11,8 +11,8 @@ const Header = (props) => {
                     </div>
                     <div className="header-links">
                         <ul>
-                            <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "inactive")}><li>Home</li></NavLink>
-                            <NavLink to="/shop" className={({ isActive }) => (isActive ? "active" : "inactive")}><li>Shop</li></NavLink>
+                            <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "inactive")}> <li>Home</li> </NavLink>
+                            <NavLink to="/shop" className={({ isActive }) => (isActive ? "active" : "inactive")}> <li>Shop</li> </NavLink>
                         </ul>
                     </div>
                 </div>

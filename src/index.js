@@ -10,7 +10,7 @@ ReactDOM.render(
     <HelmetProvider>
       <Helmet>
         <meta charset="utf-8" />
-        <title>Legit Shop</title>
+        <title>In the Noods</title>
       </Helmet>
       <App />
     </HelmetProvider>

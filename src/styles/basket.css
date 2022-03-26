@@ -1,0 +1,7 @@
+.basketDisplay {
+    z-index: 1000;
+    position: absolute;
+    right: 5%;
+    background-color: white;
+    height: 100%
+}

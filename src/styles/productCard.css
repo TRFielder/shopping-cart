@@ -1,12 +1,17 @@
 .productCard {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin: 5%;
-    width: 50%;
+    width: 60%;
     border: 2px solid black;
 }
 
 .productCard > img {
     width: 80%;
     margin: 5% auto;
+}
+
+#vegSymbol {
+    width: 8%;
 }
