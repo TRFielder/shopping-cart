@@ -16,7 +16,7 @@ const ProductCard = (props) => {
             </p>
             <p>{props.price}</p>
             <img alt={props.name} src={images[props.image]}></img>
-            <button onClick={() => console.log(`Clicked ${props.name}`)}>Add to basket</button>            
+            <button onClick={props.buyItem}>Add to basket</button>            
         </div>
     )
 }

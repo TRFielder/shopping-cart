@@ -1,23 +1,28 @@
 import { useState, useEffect } from "react"
 import "../styles/basket.css";
 
-const Basket = () => {
-    const [items, setItems] = useState([
-        {id: 1,
-        name: "Tonkotsu",
-        price: 12
-        }
-    ]);
-    const [total, setTotal] = useState(13);
+const Basket = (props) => {
+    const [items, setItems] = useState([]);
+
+    useEffect(() => {
+        setItems(
+            props => [...items, props.contents]
+        )
+    },[])
 
     return(
         <div className="basketDisplay">
-            <h1>Total: {`£${total}`}</h1>
-            {items.map(item => {
+            <h1>Total: £{
+            props.contents.reduce(function(prev, cur) {
+                return prev + cur.price * cur.quantity;
+            }, 0
+            )}</h1>
+            {props.contents.map(item => {
                 return(
                     <div key = {item.id}>
                         <h2>{item.name}</h2>
-                        <p>{item.price}</p>
+                        <p>£{item.price}, Qty: {item.quantity}</p>
+                        <button onClick={props.removeItem}>-</button>
                     </div>
                 )
             })}
