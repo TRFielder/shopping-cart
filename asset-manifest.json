@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.d73eaa89.css",
-    "main.js": "/shopping-cart/static/js/main.a86664d6.js",
+    "main.css": "/shopping-cart/static/css/main.080aa91e.css",
+    "main.js": "/shopping-cart/static/js/main.a939b8e4.js",
     "static/media/8-low-ural2.jpg": "/shopping-cart/static/media/8-low-ural2.177ec6a877a74c819f04.jpg",
     "static/media/anton-nazaretian2.jpg": "/shopping-cart/static/media/anton-nazaretian2.ca87d106589d3dd2eea0.jpg",
     "static/media/tantanman.jpg": "/shopping-cart/static/media/tantanman.4a9810a9ec1d6d3f5ce6.jpg",
@@ -11,11 +11,11 @@
     "static/media/tonkotsu.jpg": "/shopping-cart/static/media/tonkotsu.228d5a652bebddd1f84d.jpg",
     "static/media/mushroom.jpg": "/shopping-cart/static/media/mushroom.2a259629cc82a172bfa0.jpg",
     "index.html": "/shopping-cart/index.html",
-    "main.d73eaa89.css.map": "/shopping-cart/static/css/main.d73eaa89.css.map",
-    "main.a86664d6.js.map": "/shopping-cart/static/js/main.a86664d6.js.map"
+    "main.080aa91e.css.map": "/shopping-cart/static/css/main.080aa91e.css.map",
+    "main.a939b8e4.js.map": "/shopping-cart/static/js/main.a939b8e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d73eaa89.css",
-    "static/js/main.a86664d6.js"
+    "static/css/main.080aa91e.css",
+    "static/js/main.a939b8e4.js"
   ]
 }
