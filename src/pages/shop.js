@@ -21,11 +21,11 @@ const Shop = () => {
             id: product.id,
             quantity: 1
         }
-        if(basket.some(item => item.name === newBasketItem.name)) {
+        if(basket.some(item => item.name === newBasketItem.name)) { //Updates quantity of an item already in the basket
             let indexToIncrement = basket.findIndex(item => item.name === newBasketItem.name)
-            console.log(indexToIncrement)
             let newBasket = basket;
-            newBasket[indexToIncrement].quantity++
+            let newItem = newBasket[indexToIncrement]
+            newItem.quantity++;
             setBasket(newBasket)
         }
         if(!basket.some(item => item.name === newBasketItem.name)) {
@@ -33,24 +33,24 @@ const Shop = () => {
         }
     }
 
-    const removeFromBasket = (product) => {
-        console.log(product)
+    const removeFromBasket = (item) => {
         let itemToFind = {
-            name: product.name,
-            price: product.price,
-            id: product.id
+            name: item.name,
+            price: item.price,
+            id: item.id
         }
-
         let newBasket = basket;
-        let indexToRemove = basket.findIndex(item => item.name = itemToFind.name);
+        newBasket = newBasket.filter(item => item.name !== itemToFind.name)
 
-        newBasket = newBasket.splice(indexToRemove, 1);
-        setBasket(newBasket)
+        setBasket([...newBasket])
     }
 
   return (
     <div className="productMenu">
-        <Basket contents={basket}/>
+        <Basket 
+        contents={basket}
+        removeItem = {(item) => removeFromBasket(item)}
+        />
         {products.map(product => {
             return(
                 <ProductCard key={product.id}
@@ -60,7 +60,6 @@ const Shop = () => {
                 image={product.image}
                 vegetarian={product.vegetarian}
                 buyItem={() => addToBasket(product)}
-                removeItem = {() => removeFromBasket(product)}
                 />
             )
         })}
